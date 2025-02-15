@@ -30,7 +30,7 @@ def home():
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
   
-**Now press below shortcut to save the file**
+#Now press below shortcut to save the file
 #Press Ctrl + x
 #The give Y
 #Then Press Enter
