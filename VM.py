@@ -12,8 +12,7 @@ sudo apt update
 sudo apt install python3-pip
 pip3 install flask
 
-#after installing Python and Flask in both the VM’s
-# execute the below command to create file
+#Create a Python Script
 
 nano shivani.py
 
@@ -35,13 +34,13 @@ if __name__ == '__main__':
 #The give Y
 #Then Press Enter
 
-# To execute a Python script run below mentioned command
+# Run the Flask Application
 python3 shivani.py
 
-#Now In VM2 install curl using below commands
+#Install Curl on VM2 and Test the Microservice
 
 sudo snap install curl
 
-# Then execute below commands to check the final
+# execute the following command in VM2 to test microservice is accessible
 
 curl http://192.168.1.4:5000
